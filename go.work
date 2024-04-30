@@ -1,1 +1,7 @@
 go 1.22.2
+
+use (
+	./src/registry/gossip
+	./src/registry/kubernetes
+	./src/registry/nats
+)

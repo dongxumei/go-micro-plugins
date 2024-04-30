@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package gossip;
+
+option go_package = "github.com/dongxumei/go-micro-plugins/registry/gossip;proto";
+
+// Update is the message broadcast
+message Update {
+	// time to live for entry
+	uint64 expires = 1;
+	// type of update
+	int32 type = 2;
+	// what action is taken
+	int32 action = 3;
+	// any other associated metadata about the data
+	map<string, string> metadata = 6;
+	// the payload data;
+	bytes data = 7;
+}
