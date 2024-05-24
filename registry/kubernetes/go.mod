@@ -1,9 +1,9 @@
-module github.com/dongxumei/go-micro-plugins/registry/nats
+module github.com/dongxumei/go-micro-plugins/registry/kubernetes
 
-go 1.22.2
+go 1.22
 
 require (
-	github.com/nats-io/nats.go v1.34.1
+	github.com/pkg/errors v0.9.1
 	go-micro.dev/v4 v4.10.2
 )
 
@@ -26,15 +26,11 @@ require (
 	github.com/imdario/mergo v0.3.16 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
-	github.com/klauspost/compress v1.17.8 // indirect
 	github.com/miekg/dns v1.1.59 // indirect
-	github.com/nats-io/nkeys v0.4.7 // indirect
-	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/nxadm/tail v1.4.11 // indirect
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sergi/go-diff v1.3.2-0.20230802210424-5b0b94c5c0d3 // indirect
